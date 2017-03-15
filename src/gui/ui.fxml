@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerUI">
+    <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Menu text="Bot">
+            <MenuItem fx:id="startBot" onAction="#startBot" text="Start          " />
+            <MenuItem fx:id="stopBot" onAction="#stopBot" text="Stop          " />
+            <MenuItem fx:id="settingsBot" onAction="#settingsBot" text="Settings          " />
+        </Menu>
+        <Menu text="Command">
+            <MenuItem onAction="#addCommand" text="Add          " />
+            <MenuItem onAction="#editCommand" text="Edit           " />
+            <MenuItem onAction="#deleteCommand" text="Delete         " />
+        </Menu>
+        <Menu text="Help">
+            <MenuItem onAction="#gettingStarted" text="Getting Started       " />
+            <MenuItem onAction="#about" text="About       " />
+        </Menu>
+    </MenuBar>
+
+    <TableView fx:id="commandTable" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+        <columns>
+            <TableColumn fx:id="commandColumn" prefWidth="200.0" text="Command" />
+            <TableColumn fx:id="messageColumn" minWidth="0.0" prefWidth="408.0" text="Message" />
+        </columns>
+    </TableView>
+   <HBox layoutX="14.0" layoutY="375.0" prefHeight="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <Label fx:id="statusLabel" prefHeight="25.0" prefWidth="600.0" text="Bot status: Stopped">
+         </Label>
+   </HBox>
+
+</AnchorPane>

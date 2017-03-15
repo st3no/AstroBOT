@@ -1,0 +1,18 @@
+{
+  "twitch_server" : "irc.chat.twitch.tv",
+  "twitch_port" : "6667",
+  "user_pass" : "",
+  "user_name" : "",
+  "user_channel" : "",
+
+  "commands" : [
+    {
+      "cmd" : "!hi",
+      "msg" : "Welcome $user"
+    },
+    {
+      "cmd" : "!project",
+      "msg" : "I'm working on 'AstroBOT'"
+    }
+  ]
+}
