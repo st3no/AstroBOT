@@ -1,5 +1,7 @@
 # AstroBOT
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/41e7da053b484c4bab0b878a3d7cd155)](https://www.codacy.com/app/steno94/AstroBOT?utm_source=github.com&utm_medium=referral&utm_content=st3no/AstroBOT&utm_campaign=badger)
+
 **_Bot for the twitch chat_** developed with _JavaFX!_ :)
 
 
