@@ -2,8 +2,8 @@
   "twitch_server" : "irc.chat.twitch.tv",
   "twitch_port" : "6667",
   "user_nick" : "",
-  "user_pass" : "", // Token OAuth 2.0
-  "user_channel" : "", // Whitout #
+  "user_pass" : "",
+  "user_channel" : "",
 
   "commands" : [
     {
